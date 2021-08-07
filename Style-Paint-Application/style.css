@@ -1,0 +1,32 @@
+body {
+  background-color: #1000;
+}
+
+#canvas{
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  z-index:1;
+    
+}
+
+#video{
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  z-index:-1;
+  border: 3px #fff solid;
+	border-radius: 10px;
+    -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
+
+
+body {
+  background: linear-gradient(
+    to bottom,
+    red,
+    blue
+  );
+}
+
